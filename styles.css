@@ -79,13 +79,55 @@ a:hover {
     display: none;
 }
 
+.bg-gray {
+ background: #DEDEDE;
 
+}
+ .btn {
+     display: inline-block;
+     /* font-weight: 400; */
+     text-align: center;
+     vertical-align: middle;
+     background-color: transparent;
+     border: 1px solid transparent;
+     padding: 0.75rem 2.5rem;
+     border-radius: 0.6rem;
+ }
 
+ .btn-greenish {
+     color: #fff;
+     background-color: #25E6C8;
+     font-weight: bold;
+ }
 
+#showcase .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+}
 
+#showcase .container img {
+    height: 500px;
+    margin-top: 1rem;
+}
 
+.content-box {
+align-self: center;
 
+}
+.color { /*text i container box*/ 
+   color: #363636;
+   font-family: 'Roboto Slab', serif;
+   font-size: 3rem;
+   font-weight: 400;
+   line-height: 1.1;
+   
+}
 
+.color2 {
+    margin: 2.5rem 0;
+    font-size: 0.8rem;
+}
 
 
 
@@ -102,6 +144,22 @@ a:hover {
     }
     .navbar-toggler {
         display: none;
+    }
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media(min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+
+@media(min-width: 1200px) {
+    .container {
+        max-width: 1140px;
     }
 }
 
