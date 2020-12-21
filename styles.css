@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html, body {
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
@@ -138,13 +139,14 @@ a:hover {
     cursor: pointer;
     font-weight: bold;
     background-color: transparent;
-    width: 100%;
+    width: 50%;
   }
 
   .btn-secondary {
     border: 0.6px solid #fff;
     background-color: #fff;
     color:  #2BAAEC;
+    border-radius: 0.5rem;
   
   }
  
@@ -153,18 +155,18 @@ a:hover {
     border: 0.5px solid #fff;
     color: #fff;
 }
+
 .appointment{
     padding: 2.5rem 0;
     background-color:  #2BAAEC;
     opacity: 0.8;
-
 }
 
 .appointment .container .text {
     color: #fff;
     font-family: 'Roboto Slab', serif;
-    display: inline;
-    float: left;
+    display: flex;
+    justify-content: space-around;    
 }
 
  
